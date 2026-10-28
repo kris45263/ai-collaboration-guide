@@ -1,0 +1,38 @@
+{
+  "created": "2026-10-25",
+  "completed": "2026-10-26",
+  "method": "独立初稿与另一独立子代理参考文档的修订",
+  "fork_turns": "none",
+  "model": "未显式覆盖；具体型号未由工具返回",
+  "document_sha256": "A32B92E6727550CB3D59C8D91DD39BF588E6D79F4DCE6F868E81775430D0DA32",
+  "retry_note": "前两个修订任务在会话继续时没有输出，使用原初稿重新启动；未按质量重跑",
+  "cases": [
+    {
+      "id": "01-handoff",
+      "before_agent": "release_handoff_before",
+      "after_agent": "v1_handoff_revision",
+      "input_sha256": "E36104AF1255C809972304ED97EAEF3B3FE1811D653FC0C1644A271CE073F4D2",
+      "before_sha256": "2DE33E16F08F83772AB8384A648FBF164DA81C9936DC26830DA9A34FA84BC4B4",
+      "after_sha256": "91099BA81B9B3964B4D51C07749C413C70FB34038ED2C9632DD627D069A11A91",
+      "evaluation": "not_started"
+    },
+    {
+      "id": "02-workflow",
+      "before_agent": "release_workflow_before",
+      "after_agent": "v1_workflow_revision",
+      "input_sha256": "E97E6C91F5E6E5EFE95E81FB13DBF41FA69791045A0288913FFCC13DF76C2936",
+      "before_sha256": "F2ABF98AB72746D0DC578C39888EB67C8765396C3DBE911DAFAA2BC4D459B59B",
+      "after_sha256": "1903D8FDCC8F057512875E0671FD2A9614CB60796A3C49FB14506BC28083E114",
+      "evaluation": "not_started"
+    },
+    {
+      "id": "03-documentation",
+      "before_agent": "release_docs_before",
+      "after_agent": "v1_docs_revision",
+      "input_sha256": "54C34279A8E3CCB5B7D94856258A4D770ACEA468A1E99614B800362ACA2C539A",
+      "before_sha256": "BD905FB5D75C0A36A6C32BE72553788105DC242C45AEA4823D884377E8031A5C",
+      "after_sha256": "B5F3F1263B9486688112D0184693812DC63FF2157AEE371EEFB5C1AD8C4D0B4F",
+      "evaluation": "not_started"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# 本地原始记录、研究材料和早期案例；首版候选使用 examples/
+/.local-sources/
+/baseline/
+/research/
+/cases/
+
+# 本地筹备与发布核对文件
+/研究与案例准备.md
+/发布材料清单.md
+/发布前检查.md
+

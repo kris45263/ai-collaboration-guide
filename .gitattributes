@@ -1,0 +1,2 @@
+# Preserve exact case bytes so published SHA256 values remain verifiable.
+examples/** -text
